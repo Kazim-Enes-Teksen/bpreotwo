@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "testSolver",
+    "slug": "testSolver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dred2024.testSolver"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-build-properties",
+      {
+        "android": {
+          "kotlinVersion": "1.6.10",
+          "gradleVersion": "7.0.2"        }
+      }]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b5c2bee-385a-43a8-bf6c-a2c7de6d57a2"
+      }
+    }
+  }
+}
